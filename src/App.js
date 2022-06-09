@@ -6,7 +6,7 @@ import Navbar from './component/shared/Navbar';
 import ContactMe from './component/page/ContactMe';
 import About from './component/page/About';
 import Project from './component/page/Project';
-import Footer from './component/shared/Footer';
+
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path='project' element={<Project></Project>}></Route>
         <Route path='contact' element={<ContactMe></ContactMe>}></Route>
       </Routes>
-      <Footer></Footer>
+     
     </div>
   );
 }
