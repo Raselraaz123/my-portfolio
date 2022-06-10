@@ -5,7 +5,7 @@ const Design = () => {
     <div>
       <div class="hero px-28">
         <div class="hero-content grid sm:grid-cols-1 sm:gap-40 lg:grid-cols-2  ">
-          <div className="mt-[120px]  hover:shadow-2xl rounded-2xl p-5">
+          <div className="mt-[120px] hover:bg-black hover:shadow-2xl rounded-2xl p-5">
             <h2 className="text-4xl font-bold">Design</h2>
             <p className="py-6">
               I'm probably not the typical designer positioned behind an
@@ -15,7 +15,7 @@ const Design = () => {
               experiences while staying fashionable.
             </p>
           </div>
-          <div className="mt-[-120px] hover:shadow-2xl rounded-2xl p-5">
+          <div className="mt-[-120px] hover:bg-white hover:text-black hover:shadow-2xl rounded-2xl p-5">
             <h1 class="text-4xl font-bold">Engineering</h1>
             <p class="py-6">
               In building React applications, I'm equipped with just the right
