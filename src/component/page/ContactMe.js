@@ -3,20 +3,22 @@ import React from 'react';
 const ContactMe = () => {
 
   return (
-    <div className="flex justify-center items-center  min-h-screen">
-      <div class="card w-1/2  shadow-2xl">
+    <div className="flex justify-center   min-h-screen">
+      <div class="card lg:w-1/2  shadow-2xl">
+        <h3 className="text-center font-bold text-4xl">Get in touch</h3>
         <form
-      
           action="https://formsubmit.co/raselraaz91@gmail.com"
           method="POST"
-          target='_blank'
+          target="_blank"
           className="p-10"
         >
           <fieldset>
-            <legend>Contact Me</legend>
+            <legend className="font-bold text-2xl ">Contact Me</legend>
             <div class="form-control w-full max-w-xs">
               <label class="label">
-                <span class="label-text text-white">Name</span>
+                <span class="label-text font-bold text-xl text-white">
+                  Name
+                </span>
               </label>
               <input
                 required
@@ -28,7 +30,9 @@ const ContactMe = () => {
             </div>
             <div class="form-control w-full max-w-xs">
               <label class="label">
-                <span class="label-text text-white">Email</span>
+                <span class="label-text font-bold text-xl text-white">
+                  Email
+                </span>
               </label>
               <input
                 required
@@ -40,7 +44,9 @@ const ContactMe = () => {
             </div>
             <div class="form-control w-full max-w-xs">
               <label class="label">
-                <span class="label-text text-white">Country</span>
+                <span class="label-text font-bold text-xl text-white">
+                  Country
+                </span>
               </label>
               <select required name="country" className="text-black">
                 <option> Afghanistan</option>
@@ -75,17 +81,14 @@ const ContactMe = () => {
                 <option>United States of America</option>
                 <option> Yemen</option>
               </select>
-              {/* <input
-                required
-                type="email"
-                placeholder="Your Email"
-                class="input input-bordered w-full max-w-xs text-black"
-              /> */}
+          
             </div>
 
             <div class="form-control w-full max-w-xs">
               <label class="label">
-                <span class="label-text text-white">Your message</span>
+                <span class="label-text font-bold text-xl text-white">
+                  Your message
+                </span>
               </label>
               <textarea
                 name="message"
