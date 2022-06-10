@@ -3,7 +3,7 @@ import React from 'react';
 const HomeCarousel = () => {
   return (
     <div className="px-28 mb-10">
-      <ul class="grid sm:grid-cols-2 mb:grid-cols-3 lg:grid-cols-3 gap-5">
+      <ul class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="card">
           <li class="bg-purple-400 hover:bg-white hover:text-black card-body">
             <h2 class="text-xl font-bold color-primary text-uppercase">

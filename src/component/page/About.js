@@ -2,13 +2,13 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="px-28">
+    <div className="px-28 ">
       <div class="hero  min-h-screen  ">
         <div class="hero-content flex-col lg:flex-row ">
           <img
             src="https://i.ibb.co/41rtsLx/rasel1.png"
             alt="Rasel"
-            class="rounded-lg shadow-2xl  "
+            class="rounded-lg shadow-2xl w-[500px]"
           />
           <div>
             <h2 class="font-bold text-xl">Name : Rasel Rana</h2>
