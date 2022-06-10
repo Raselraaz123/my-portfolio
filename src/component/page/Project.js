@@ -2,15 +2,25 @@ import React from 'react';
 
 const Project = () => {
   return (
-    <div className="px-28">
-      <div class="hero w-full h-[500px] overflow-auto mt-10">
+    <div className="lg:px-28">
+      <div class="hero w-full  mt-10">
         <div class="hero-content flex-col lg:flex-row">
-          <img
-            src="https://i.ibb.co/CwNF6KM/Rasel-Car-Parts-Store.png"
-            class="max-w-sm rounded-lg shadow-2xl sm:w-1/2"
-          />
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <img
+              src="https://i.ibb.co/CwNF6KM/Rasel-Car-Parts-Store.png"
+              class="rounded-lg shadow-2xl  h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/Y8W3zz8/Store2.png"
+              class="rounded-lg shadow-2xl  h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/xFXxkL9/Store3.png"
+              class="rounded-lg shadow-2xl  sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+          </div>
           <div>
-            <h1 class="text-5xl font-bold lg:mt-[-600px]">
+            <h1 class="lg:text-5xl font-bold sm:text-3xl ">
               Rasel Car Parts Store
             </h1>
             <p class="py-6">
@@ -21,7 +31,7 @@ const Project = () => {
               gateway.All data will be dynamically loaded and updated with time.
             </p>
             <a
-              className=" btn-link p-0 m-0"
+              className="mb-2 btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://rasel-car-parts-store.web.app/"
             >
@@ -29,7 +39,7 @@ const Project = () => {
             </a>
             <br />
             <a
-              className=" btn-link p-0 m-0"
+              className="mb-2 btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://github.com/Raselraaz123/Rasel_Car_Parts_Store_client_side"
             >
@@ -37,7 +47,7 @@ const Project = () => {
             </a>
             <br />
             <a
-              className=" btn-link p-0 m-0"
+              className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://github.com/Raselraaz123/Rasel_Car_Parts_Store_server_side"
             >
@@ -47,14 +57,24 @@ const Project = () => {
         </div>
       </div>
 
-      <div class="hero  w-full h-[500px] overflow-auto mt-10 ">
+      <div class="hero  w-full mt-10 ">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://i.ibb.co/d4wqVYz/Raaz-Perfume-Store.png"
-            class="max-w-sm rounded-lg shadow-2xl sm:w-1/2"
-          />
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <img
+              src="https://i.ibb.co/d4wqVYz/Raaz-Perfume-Store.png"
+              class="rounded-lg shadow-2xl h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/mSnskjZ/Perfume-Store2.png"
+              class="rounded-lg shadow-2xl h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/9r1kDgB/Perfume-Store3.png"
+              class="rounded-lg shadow-2xl sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+          </div>
           <div>
-            <h1 class="text-5xl font-bold lg:mt-[-500px]">
+            <h1 class="lg:text-5xl font-bold sm:text-3xl ">
               Raaz Perfume Store
             </h1>
             <p class="py-6">
@@ -66,7 +86,7 @@ const Project = () => {
               MongoDB database.
             </p>
             <a
-              className=" btn-link p-0 m-0"
+              className="mb-2 btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://raaz-perfumes-store.web.app/"
             >
@@ -74,7 +94,7 @@ const Project = () => {
             </a>
             <br />
             <a
-              className=" btn-link p-0 m-0"
+              className="mb-2 btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://github.com/Raselraaz123/Raaz_Perfume_Store_client-side"
             >
@@ -82,7 +102,7 @@ const Project = () => {
             </a>
             <br />
             <a
-              className=" btn-link p-0 m-0"
+              className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://github.com/Raselraaz123/Raaz_Perfume_Store_server_side"
             >
@@ -91,21 +111,34 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div class="hero  w-full h-[500px] overflow-auto mt-10">
+      <div class="hero  w-full  mt-10">
         <div class="hero-content flex-col lg:flex-row">
-          <img
-            src="https://i.ibb.co/9GHMkTX/Travel-to-world.png"
-            class="max-w-sm rounded-lg shadow-2xl sm:w-1/2"
-          />
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <img
+              src="https://i.ibb.co/9GHMkTX/Travel-to-world.png"
+              class=" rounded-lg shadow-2xl h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/ypyZ4JL/world2.png"
+              class=" rounded-lg shadow-2xl h-[500px] sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+            <img
+              src="https://i.ibb.co/6y3LNsN/world3.png"
+              class=" rounded-lg shadow-2xl sm:w-[250px] md:w-6/12 lg:w-full"
+            />
+          </div>
+
           <div>
-            <h1 class="text-5xl font-bold">Travel to the world</h1>
+            <h1 class="lg:text-5xl font-bold sm:text-3xl">
+              Travel to the world
+            </h1>
             <p class="py-6">
               This is a traveling website. A valid user can make bookings for
               traveling to different countries from this website if he wishes.
               Firebase has been used on the website for authentication.
             </p>
             <a
-              className=" btn-link p-0 m-0"
+              className="mb-2 btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://travel-to-world-7da9f.web.app/"
             >
@@ -113,7 +146,7 @@ const Project = () => {
             </a>
             <br />
             <a
-              className=" btn-link p-0 m-0"
+              className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500"
               target="_blank"
               href="https://github.com/Raselraaz123/Travel_to_world"
             >
@@ -127,3 +160,11 @@ const Project = () => {
 };
 
 export default Project;
+
+
+
+
+
+
+
+
